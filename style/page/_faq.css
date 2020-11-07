@@ -1,0 +1,49 @@
+.banner {
+  height: 304px;
+  background: url("../../images/qa.png") center center;
+  margin-bottom: 5rem;
+}
+
+.banner .container {
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.banner .container ul {
+  display: flex;
+  align-items: center;
+}
+
+.banner .container ul h1 {
+  font-size: 4rem;
+  line-height: 5rem;
+  margin-right: 1.5rem;
+}
+
+.banner .container ul img {
+  width: 3.625rem;
+}
+
+.faq {
+  margin-bottom: 19rem;
+}
+
+.faq h2 {
+  font-size: 2rem;
+  line-height: 3.93rem;
+  margin-bottom: 2.25rem;
+}
+
+.faq .question {
+  font-size: 1.25rem;
+  line-height: 1.43rem;
+  margin-bottom: 1rem;
+}
+
+.faq .answer {
+  padding-left: 5.93rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 2.5rem;
+}

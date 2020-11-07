@@ -1,0 +1,64 @@
+footer {
+  background: #aa0601;
+  padding: 3rem 0 1.75rem 0;
+  color: #fff;
+  .nav-and-media {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:1.5rem;
+    .nav {
+      display: flex;
+      li {
+        margin-right: 3rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+    }
+    .media{
+      display: flex;
+      a{
+        max-width:24px;
+        margin-left:1.5rem;
+      }
+    }
+  }
+  .contact {
+    font-size: 2.25rem;
+    line-height: 3.375rem;
+    border-bottom: 1px solid #fff;
+    li {
+      display: flex;
+      margin-bottom: 1rem;
+      align-items: center;
+      &:first-child img{
+        width:2.375rem;
+        height:2.375rem;
+        margin-right:1.25rem
+      }
+      &:last-child img{
+        width:2.75rem;
+        height:2.5rem;
+        margin-right:0.875rem
+      }
+    }
+  }
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1rem;
+    .copy {
+      display: flex;
+      align-items: center;
+      img{
+        margin-right:1.125rem;
+      }
+    }
+    .terms {
+      display: flex;
+      li {
+        margin-left: 3.875rem;
+      }
+    }
+  }
+}

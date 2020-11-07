@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.875rem 5.5rem;
+  background: #aa0601;
+  .nav {
+    display: flex;
+    align-items: center;
+    li {
+      margin-left: 4rem;
+      a {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        color: white;
+      }
+    }
+  }
+}
