@@ -1,4 +1,4 @@
-.banner {
+.faq-banner {
   height: 304px;
   background: url("../../images/qa.png") center center;
   margin-bottom: 5rem;
@@ -43,7 +43,7 @@
 
 
 @media screen and (max-width:992px){
-  .banner{
+  .faq-banner{
     font-size: 3rem;
     margin-bottom: 2.5rem;
     padding-left:2.4375rem; 
@@ -66,7 +66,7 @@
   }
 }
 @media screen and (max-width:767px){
-  .banner{
+  .faq-banner{
     height:143px;
     padding-left:0.9375rem;
     margin-bottom: 1.5rem;

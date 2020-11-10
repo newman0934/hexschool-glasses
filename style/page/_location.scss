@@ -1,0 +1,39 @@
+.location-banner {
+  height: 304px;
+  background: url("../../images/qa.png") center center;
+  margin-bottom: 5rem;
+  .container {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    ul {
+      display: flex;
+      align-items: center;
+      h1 {
+        font-size: 4rem;
+        line-height: 5rem;
+        margin-right: 1.5rem;
+      }
+      img {
+        width: 2.5rem;
+      }
+    }
+  }
+}
+
+.location{
+    .stores{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        &::after{
+            content:"";
+            width:30.7%;
+        }
+        .store{
+            width:30.7%;
+            margin-bottom:2rem;
+            border:1px solid rgba( 0 , 0 , 0 , 0.125 );
+        }
+    }
+}
