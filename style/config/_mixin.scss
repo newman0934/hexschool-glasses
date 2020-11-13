@@ -1,0 +1,20 @@
+@mixin location-icon {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin-right: 0.75rem;
+}
+
+@mixin pad {
+  @media screen and (max-width: $ipad-width) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media all and (max-width: $mobile-media) {
+    @content;
+  }
+}

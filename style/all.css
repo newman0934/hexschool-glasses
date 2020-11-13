@@ -453,7 +453,7 @@ footer .copyright .terms li {
 .location-banner {
   height: 304px;
   background: url("../../images/qa.png") center center;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
 }
 
 .location-banner .container {
@@ -485,6 +485,24 @@ footer .copyright .terms li {
   width: 2.5rem;
 }
 
+.location {
+  margin-bottom: 17rem;
+}
+
+.location label {
+  font-size: 1.5rem;
+  vertical-align: middle;
+  margin-right: 1.25rem;
+}
+
+.location .location-select {
+  margin-bottom: 2rem;
+  padding-left: 1.25rem;
+  font-size: 1.25rem;
+  width: 324px;
+  height: 45px;
+}
+
 .location .stores {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -505,5 +523,67 @@ footer .copyright .terms li {
   width: 30.7%;
   margin-bottom: 2rem;
   border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.location .stores .store-name {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  line-height: 36px;
+}
+
+.location .stores .store-information {
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 30px;
+}
+
+.location .stores .store-information li + li {
+  margin-top: 0.5rem;
+}
+
+.location .stores .store-information .tel::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin-right: 0.75rem;
+  top: 5px;
+  background: url("../../images/icon-phone-black.svg") no-repeat center;
+  background-size: contain;
+}
+
+.location .stores .store-information .open-time::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin-right: 0.75rem;
+  top: 3px;
+  background: url("../../images/icon-clock-black.svg") no-repeat center;
+  background-size: 16px 16px;
+}
+
+.location .stores .store-information .address::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin-right: 0.75rem;
+  top: 3px;
+  background: url("../../images/icon-map.svg") no-repeat center;
+  background-size: 16px 16px;
+}
+
+.location .stores .store a {
+  font-size: 1.1875rem;
+  line-height: 26px;
+  text-align: center;
+  padding: 1.25rem 0;
+  background: #000;
+  color: #fff;
 }
 /*# sourceMappingURL=all.css.map */
