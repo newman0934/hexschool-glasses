@@ -149,7 +149,7 @@
         line-height: 26px;
         text-align: center;
         padding: 1.25rem 0;
-        background: #000;
+        background: $button-bg-color;
         color: #fff;
         @include pad{
           font-size: 0.875rem;
