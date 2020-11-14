@@ -339,7 +339,7 @@ footer .copyright .terms li {
 
 .faq-banner {
   height: 304px;
-  background: url("../../images/qa.png") center center;
+  background: url("/images/qa.png") center center;
   margin-bottom: 5rem;
 }
 
@@ -481,7 +481,7 @@ footer .copyright .terms li {
 
 .location-banner {
   height: 304px;
-  background: url("../../images/qa.png") center center;
+  background: url("/images/qa.png") center center;
   margin-bottom: 1rem;
 }
 
