@@ -128,19 +128,19 @@
         .tel::before {
           @include location-icon;
           top: 5px;
-          background: url("../../images/icon-phone-black.svg") no-repeat center;
+          background: url("/images/icon-phone-black.svg") no-repeat center;
           background-size: contain;
         }
         .open-time::before {
           @include location-icon;
           top: 3px;
-          background: url("../../images/icon-clock-black.svg") no-repeat center;
+          background: url("/images/icon-clock-black.svg") no-repeat center;
           background-size: 16px 16px;
         }
         .address::before {
           @include location-icon;
           top: 3px;
-          background: url("../../images/icon-map.svg") no-repeat center;
+          background: url("/images/icon-map.svg") no-repeat center;
           background-size: 16px 16px;
         }
       }

@@ -685,7 +685,7 @@ footer .copyright .terms li {
   height: 21px;
   margin-right: 0.75rem;
   top: 5px;
-  background: url("../../images/icon-phone-black.svg") no-repeat center;
+  background: url("/images/icon-phone-black.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -697,7 +697,7 @@ footer .copyright .terms li {
   height: 21px;
   margin-right: 0.75rem;
   top: 3px;
-  background: url("../../images/icon-clock-black.svg") no-repeat center;
+  background: url("/images/icon-clock-black.svg") no-repeat center;
   background-size: 16px 16px;
 }
 
@@ -709,7 +709,7 @@ footer .copyright .terms li {
   height: 21px;
   margin-right: 0.75rem;
   top: 3px;
-  background: url("../../images/icon-map.svg") no-repeat center;
+  background: url("/images/icon-map.svg") no-repeat center;
   background-size: 16px 16px;
 }
 
