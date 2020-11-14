@@ -13,9 +13,26 @@
         font-size: 4rem;
         line-height: 5rem;
         margin-right: 1.5rem;
+        @include pad{
+          font-size: 3rem;
+          margin-right: 1rem;
+          margin-left: 2.5rem;
+        }
+        @include mobile{
+          font-size: 1.75rem;
+          line-height: 2.5rem;
+          margin-right: 0.5rem;
+          margin-left: 1rem;
+        }
       }
       img {
         width: 2.5rem;
+        @include pad{
+          width: 1.875rem;
+        }
+        @include mobile{
+          width: 1rem;
+        }
       }
     }
   }
@@ -23,10 +40,28 @@
 
 .location {
   margin-bottom: 17rem;
+  @include pad{
+    padding:0 2.5rem;
+    margin-bottom: 4.5rem;
+  }
+
+  @include mobile{
+    padding:0 1rem;
+    margin-bottom: 1.5rem;
+  }
+
   label{
     font-size: 1.5rem;
     vertical-align: middle;
     margin-right: 1.25rem;
+    @include pad{
+      font-size: 1rem;
+    }
+    @include mobile{
+      font-size: 0.875rem;
+      margin-right: 0.75rem;
+    }
+
   }
   .location-select{
     margin-bottom: 2rem;
@@ -34,29 +69,59 @@
     font-size: 1.25rem;
     width:324px;
     height: 45px;
+    @include pad{
+      width: 237px;
+      margin-bottom: 1.5rem;
+    }
+    @include mobile{
+      width: 271px;
+      height: 36px;
+      padding-left: 1rem;
+      font-size: 0.875rem;
+    }
   }
   .stores {
     display: flex;
     flex-flow: wrap;
     justify-content: space-between;
+
     &::after {
       content: "";
       width: 30.7%;
+      @include pad{
+        width:47%
+      }
     }
     .store {
       width: 30.7%;
       margin-bottom: 2rem;
       border: 1px solid rgba(0, 0, 0, 0.125);
+      @include pad{
+        width: 47%;
+      }
+      @include mobile{
+        width: 100%;
+      }
       &-name {
         border-bottom: 1px solid rgba(0, 0, 0, 0.125);
         padding: 1rem 1.5rem;
         font-size: 1.5rem;
         line-height: 36px;
+        @include pad{
+          font-size: 1rem;
+          line-height: 24px;
+          padding:0.5rem 1rem;
+        }
       }
       &-information {
         padding: 1rem 1.5rem;
         font-size: 1.25rem;
         line-height: 30px;
+        @include pad{
+          font-size: 0.875rem;
+          line-height: 21px;
+          padding:1rem;
+        }
         li + li {
           margin-top: 0.5rem;
         }
@@ -86,6 +151,11 @@
         padding: 1.25rem 0;
         background: #000;
         color: #fff;
+        @include pad{
+          font-size: 0.875rem;
+          line-height: 21px;
+          padding:1rem 0;
+        }
       }
     }
   }

@@ -481,12 +481,55 @@ footer .copyright .terms li {
   margin-right: 1.5rem;
 }
 
+@media screen and (max-width: 992px) {
+  .location-banner .container ul h1 {
+    font-size: 3rem;
+    margin-right: 1rem;
+    margin-left: 2.5rem;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .location-banner .container ul h1 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+  }
+}
+
 .location-banner .container ul img {
   width: 2.5rem;
 }
 
+@media screen and (max-width: 992px) {
+  .location-banner .container ul img {
+    width: 1.875rem;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .location-banner .container ul img {
+    width: 1rem;
+  }
+}
+
 .location {
   margin-bottom: 17rem;
+}
+
+@media screen and (max-width: 992px) {
+  .location {
+    padding: 0 2.5rem;
+    margin-bottom: 4.5rem;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .location {
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+  }
 }
 
 .location label {
@@ -495,12 +538,41 @@ footer .copyright .terms li {
   margin-right: 1.25rem;
 }
 
+@media screen and (max-width: 992px) {
+  .location label {
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .location label {
+    font-size: 0.875rem;
+    margin-right: 0.75rem;
+  }
+}
+
 .location .location-select {
   margin-bottom: 2rem;
   padding-left: 1.25rem;
   font-size: 1.25rem;
   width: 324px;
   height: 45px;
+}
+
+@media screen and (max-width: 992px) {
+  .location .location-select {
+    width: 237px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .location .location-select {
+    width: 271px;
+    height: 36px;
+    padding-left: 1rem;
+    font-size: 0.875rem;
+  }
 }
 
 .location .stores {
@@ -519,10 +591,28 @@ footer .copyright .terms li {
   width: 30.7%;
 }
 
+@media screen and (max-width: 992px) {
+  .location .stores::after {
+    width: 47%;
+  }
+}
+
 .location .stores .store {
   width: 30.7%;
   margin-bottom: 2rem;
   border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+@media screen and (max-width: 992px) {
+  .location .stores .store {
+    width: 47%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .location .stores .store {
+    width: 100%;
+  }
 }
 
 .location .stores .store-name {
@@ -532,10 +622,26 @@ footer .copyright .terms li {
   line-height: 36px;
 }
 
+@media screen and (max-width: 992px) {
+  .location .stores .store-name {
+    font-size: 1rem;
+    line-height: 24px;
+    padding: 0.5rem 1rem;
+  }
+}
+
 .location .stores .store-information {
   padding: 1rem 1.5rem;
   font-size: 1.25rem;
   line-height: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .location .stores .store-information {
+    font-size: 0.875rem;
+    line-height: 21px;
+    padding: 1rem;
+  }
 }
 
 .location .stores .store-information li + li {
@@ -585,5 +691,13 @@ footer .copyright .terms li {
   padding: 1.25rem 0;
   background: #000;
   color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .location .stores .store a {
+    font-size: 0.875rem;
+    line-height: 21px;
+    padding: 1rem 0;
+  }
 }
 /*# sourceMappingURL=all.css.map */
