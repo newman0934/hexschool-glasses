@@ -1,0 +1,30 @@
+label{
+    font-size: 1.5rem;
+    vertical-align: middle;
+    margin-right: 1.25rem;
+    @include pad{
+      font-size: 1rem;
+    }
+    @include mobile{
+      font-size: 0.875rem;
+      margin-right: 0.75rem;
+    }
+}
+
+.select{
+    margin-bottom: 2rem;
+    padding-left: 1.25rem;
+    font-size: 1.25rem;
+    width:324px;
+    height: 45px;
+    @include pad{
+      width: 237px;
+      margin-bottom: 1.5rem;
+    }
+    @include mobile{
+      width: 271px;
+      height: 36px;
+      padding-left: 1rem;
+      font-size: 0.875rem;
+    }
+  }

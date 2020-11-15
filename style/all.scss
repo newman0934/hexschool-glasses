@@ -1,7 +1,10 @@
 @import "config/var";
 @import "config/mixin";
 @import "helper/reset";
+@import "components/card";
+@import "components/select";
 @import "layout/header";
 @import "layout/footer";
 @import "page/faq";
-@import "page/location"
+@import "page/location";
+@import "page/map";

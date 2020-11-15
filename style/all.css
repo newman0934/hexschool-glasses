@@ -78,6 +78,153 @@ img {
   margin: 0 auto;
 }
 
+.store {
+  width: 30.7%;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+@media screen and (max-width: 992px) {
+  .store {
+    width: 47%;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .store {
+    width: 100%;
+  }
+}
+
+.store-name {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  line-height: 36px;
+}
+
+@media screen and (max-width: 992px) {
+  .store-name {
+    font-size: 1rem;
+    line-height: 24px;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.store-information {
+  padding: 1rem 1.5rem;
+  font-size: 1.25rem;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .store-information {
+    font-size: 0.875rem;
+    line-height: 21px;
+    padding: 1rem;
+  }
+}
+
+.store-information li + li {
+  margin-top: 0.5rem;
+}
+
+.store-information .tel::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin-right: 0.75rem;
+  top: 5px;
+  background: url("/images/icon-phone-black.svg") no-repeat center;
+  background-size: contain;
+}
+
+.store-information .open-time::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin-right: 0.75rem;
+  top: 3px;
+  background: url("/images/icon-clock-black.svg") no-repeat center;
+  background-size: 16px 16px;
+}
+
+.store-information .address::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin-right: 0.75rem;
+  top: 3px;
+  background: url("/images/icon-map.svg") no-repeat center;
+  background-size: 16px 16px;
+}
+
+.store a {
+  font-size: 1.1875rem;
+  line-height: 26px;
+  text-align: center;
+  padding: 1.25rem 0;
+  background: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .store a {
+    font-size: 0.875rem;
+    line-height: 21px;
+    padding: 1rem 0;
+  }
+}
+
+label {
+  font-size: 1.5rem;
+  vertical-align: middle;
+  margin-right: 1.25rem;
+}
+
+@media screen and (max-width: 992px) {
+  label {
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 767px) {
+  label {
+    font-size: 0.875rem;
+    margin-right: 0.75rem;
+  }
+}
+
+.select {
+  margin-bottom: 2rem;
+  padding-left: 1.25rem;
+  font-size: 1.25rem;
+  width: 324px;
+  height: 45px;
+}
+
+@media screen and (max-width: 992px) {
+  .select {
+    width: 237px;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .select {
+    width: 271px;
+    height: 36px;
+    padding-left: 1rem;
+    font-size: 0.875rem;
+  }
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -561,49 +708,6 @@ footer .copyright .terms li {
   }
 }
 
-.location label {
-  font-size: 1.5rem;
-  vertical-align: middle;
-  margin-right: 1.25rem;
-}
-
-@media screen and (max-width: 992px) {
-  .location label {
-    font-size: 1rem;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .location label {
-    font-size: 0.875rem;
-    margin-right: 0.75rem;
-  }
-}
-
-.location .location-select {
-  margin-bottom: 2rem;
-  padding-left: 1.25rem;
-  font-size: 1.25rem;
-  width: 324px;
-  height: 45px;
-}
-
-@media screen and (max-width: 992px) {
-  .location .location-select {
-    width: 237px;
-    margin-bottom: 1.5rem;
-  }
-}
-
-@media all and (max-width: 767px) {
-  .location .location-select {
-    width: 271px;
-    height: 36px;
-    padding-left: 1rem;
-    font-size: 0.875rem;
-  }
-}
-
 .location .stores {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -626,107 +730,80 @@ footer .copyright .terms li {
   }
 }
 
-.location .stores .store {
-  width: 30.7%;
-  margin-bottom: 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+.map-banner {
+  height: 304px;
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/qa.png") center center;
+  margin-bottom: 1rem;
+}
+
+.map-banner .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100%;
+}
+
+.map-banner .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.map-banner .container ul h1 {
+  font-size: 4rem;
+  line-height: 5rem;
+  margin-right: 1.5rem;
 }
 
 @media screen and (max-width: 992px) {
-  .location .stores .store {
-    width: 47%;
+  .map-banner .container ul h1 {
+    font-size: 3rem;
+    margin-right: 1rem;
+    margin-left: 2.5rem;
   }
 }
 
 @media all and (max-width: 767px) {
-  .location .stores .store {
-    width: 100%;
+  .map-banner .container ul h1 {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin-right: 0.5rem;
+    margin-left: 1rem;
   }
 }
 
-.location .stores .store-name {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  padding: 1rem 1.5rem;
-  font-size: 1.5rem;
-  line-height: 36px;
+.map-banner .container ul img {
+  width: 2.5rem;
 }
 
 @media screen and (max-width: 992px) {
-  .location .stores .store-name {
-    font-size: 1rem;
-    line-height: 24px;
-    padding: 0.5rem 1rem;
+  .map-banner .container ul img {
+    width: 1.875rem;
   }
 }
 
-.location .stores .store-information {
-  padding: 1rem 1.5rem;
-  font-size: 1.25rem;
-  line-height: 30px;
-}
-
-@media screen and (max-width: 992px) {
-  .location .stores .store-information {
-    font-size: 0.875rem;
-    line-height: 21px;
-    padding: 1rem;
+@media all and (max-width: 767px) {
+  .map-banner .container ul img {
+    width: 1rem;
   }
 }
 
-.location .stores .store-information li + li {
-  margin-top: 0.5rem;
+.store-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.location .stores .store-information .tel::before {
-  content: "";
-  display: inline-block;
-  position: relative;
-  width: 21px;
-  height: 21px;
-  margin-right: 0.75rem;
-  top: 5px;
-  background: url("/images/icon-phone-black.svg") no-repeat center;
-  background-size: contain;
-}
-
-.location .stores .store-information .open-time::before {
-  content: "";
-  display: inline-block;
-  position: relative;
-  width: 21px;
-  height: 21px;
-  margin-right: 0.75rem;
-  top: 3px;
-  background: url("/images/icon-clock-black.svg") no-repeat center;
-  background-size: 16px 16px;
-}
-
-.location .stores .store-information .address::before {
-  content: "";
-  display: inline-block;
-  position: relative;
-  width: 21px;
-  height: 21px;
-  margin-right: 0.75rem;
-  top: 3px;
-  background: url("/images/icon-map.svg") no-repeat center;
-  background-size: 16px 16px;
-}
-
-.location .stores .store a {
-  font-size: 1.1875rem;
-  line-height: 26px;
-  text-align: center;
-  padding: 1.25rem 0;
-  background: #000;
-  color: #fff;
-}
-
-@media screen and (max-width: 992px) {
-  .location .stores .store a {
-    font-size: 0.875rem;
-    line-height: 21px;
-    padding: 1rem 0;
-  }
+.store-map .store {
+  width: 39.21%;
 }
 /*# sourceMappingURL=all.css.map */
