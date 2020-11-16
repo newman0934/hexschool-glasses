@@ -39,13 +39,46 @@
   }
 }
 
-
-.store-map{
-  display: flex;
-  justify-content: space-between;
-
-  .store{
-    width:39.21%
+.map-wrap{
+  margin-bottom: 17rem;
+  @include pad{
+    padding:0 2.5rem;
+    margin-bottom: 6.5rem;
   }
+  .store-map{
+    display: flex;
+    justify-content: space-between;
+    @include pad{
+      flex-flow: column;
+    }
+    .store{
+      width:39.21%;
+      @include pad{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        border:none;
+      }
+      img{
+        @include pad{
+          max-width:330px;
+        }
+      }
+      &-infor{
+        @include pad{
+          max-width:330px;
+          border: 1px solid rgba(0, 0, 0, 0.125);
+        }
 
+      }
+    }
+    .map{
+      width:635px;
+      height: 422px;
+      @include pad{
+        width:100%;
+      }
+    } 
+  }
 }
+
