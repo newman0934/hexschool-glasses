@@ -5,7 +5,7 @@
         "all.scss",
         "config/_var.scss",
         "config/_mixin.scss",
-        "helper/_reset.scss",
+        "base/_reset.scss",
         "components/_card.scss",
         "components/_select.scss",
         "components/_banner.scss",
