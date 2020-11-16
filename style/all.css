@@ -548,34 +548,34 @@ footer .copyright .terms li {
   }
 }
 
-.banner {
+.faq-banner {
   margin-bottom: 5rem;
 }
 
 @media screen and (max-width: 992px) {
-  .banner {
+  .faq-banner {
     margin-bottom: 2.5rem;
   }
 }
 
 @media all and (max-width: 767px) {
-  .banner {
+  .faq-banner {
     margin-bottom: 1.5rem;
   }
 }
 
-.banner .container ul img {
+.faq-banner .container ul img {
   width: 3.75rem;
 }
 
 @media screen and (max-width: 992px) {
-  .banner .container ul img {
+  .faq-banner .container ul img {
     width: 3rem;
   }
 }
 
 @media all and (max-width: 767px) {
-  .banner .container ul img {
+  .faq-banner .container ul img {
     width: 1.5rem;
   }
 }
