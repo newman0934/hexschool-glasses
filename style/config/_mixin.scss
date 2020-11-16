@@ -18,3 +18,7 @@
     @content;
   }
 }
+
+@mixin banner-img($banner-img){
+  background:url($banner-img) center center;
+}

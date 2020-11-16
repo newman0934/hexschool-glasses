@@ -1,0 +1,39 @@
+.banner {
+    height: 304px;
+    @include banner-img("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/qa.png");
+    margin-bottom: 1rem;
+    .container {
+      display: flex;
+      align-items: flex-end;
+      height: 100%;
+      ul {
+        display: flex;
+        align-items: center;
+        h1 {
+          font-size: 4rem;
+          line-height: 5rem;
+          margin-right: 1.5rem;
+          @include pad {
+            font-size: 3rem;
+            margin-right: 1rem;
+            margin-left: 2.5rem;
+          }
+          @include mobile {
+            font-size: 1.75rem;
+            line-height: 2.5rem;
+            margin-right: 0.5rem;
+            margin-left: 1rem;
+          }
+        }
+        img {
+          width: 2.5rem;
+          @include pad {
+            width: 1.875rem;
+          }
+          @include mobile {
+            width: 1rem;
+          }
+        }
+      }
+    }
+  }

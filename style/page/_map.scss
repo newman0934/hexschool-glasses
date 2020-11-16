@@ -1,49 +1,12 @@
-.map-banner {
-  height: 304px;
-  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/qa.png")
-    center center;
-  margin-bottom: 1rem;
-  .container {
-    display: flex;
-    align-items: flex-end;
-    height: 100%;
-    ul {
-      display: flex;
-      align-items: center;
-      h1 {
-        font-size: 4rem;
-        line-height: 5rem;
-        margin-right: 1.5rem;
-        @include pad {
-          font-size: 3rem;
-          margin-right: 1rem;
-          margin-left: 2.5rem;
-        }
-        @include mobile {
-          font-size: 1.75rem;
-          line-height: 2.5rem;
-          margin-right: 0.5rem;
-          margin-left: 1rem;
-        }
-      }
-      img {
-        width: 2.5rem;
-        @include pad {
-          width: 1.875rem;
-        }
-        @include mobile {
-          width: 1rem;
-        }
-      }
-    }
-  }
-}
-
 .map-wrap{
   margin-bottom: 17rem;
   @include pad{
     padding:0 2.5rem;
     margin-bottom: 6.5rem;
+  }
+  @include mobile{
+    padding:0 1rem;
+    margin-bottom: 3.5rem;
   }
   .store-map{
     display: flex;
@@ -59,9 +22,15 @@
         justify-content: space-between;
         border:none;
       }
+      @include mobile{
+        flex-flow: column;
+      }
       img{
         @include pad{
           max-width:330px;
+        }
+        @include mobile{
+          max-width:100%;
         }
       }
       &-infor{
@@ -69,7 +38,9 @@
           max-width:330px;
           border: 1px solid rgba(0, 0, 0, 0.125);
         }
-
+        @include mobile{
+          max-width: 100%;
+        }
       }
     }
     .map{
